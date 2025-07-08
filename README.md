@@ -20,4 +20,3 @@ A simple and interactive To-Do Web App built using HTML, CSS, and JavaScript. It
 ## Outcome
 
 A functional to-do list that helps users manage tasks efficiently with a simple and user-friendly design.
-
