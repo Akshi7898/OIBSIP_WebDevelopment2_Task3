@@ -19,8 +19,10 @@ h1 {
   display: flex;
   gap: 30px;
   justify-content: center;
+  align-items: flex-start; /* ✅ Add this line */
   flex-wrap: wrap;
 }
+
 
 .form-box {
   background: white;
@@ -106,4 +108,20 @@ h1 {
   margin-bottom: 10px;
   font-size: 18px;
   color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form-box input,
+.form-box textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
 }
